@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  /* overflow-y: hidden; */
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  list-style: none;
+  transition: all .3s linear;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --second-font: "League Spartan", sans-serif;
+  --heading-font: "Raleway", sans-serif;
+  --main-font: "Lato", sans-serif;
+  --weight-100: 100;
+  --weight-200: 200;
+  --weight-300: 300;
+  --weight-400: 400;
+  --weight-500: 500;
+  --weight-600: 600;
+  --weight-700: 700;
+  --weight-800: 800;
+  --weight-900: 900;
+  --h1-font-size: 2.75rem;
+  --h2-font-size: 2rem;
+  --h3-font-size: 1.75rem;
+  --h4-font-size: 1.375rem;
+  --color-white: #fff;
+  --color-black: #000;
+  --color-bisque: bisque;
+  ---main-color: linear-gradient(orange, black);
+  --color-orange-light: rgba(244, 118, 41, 0.3);
+  --color-grey: #ababab;
+  --color-grey-2: #68696c;
+  --color-dark: #333333;
+  --border-color: #e0e0e0;
+  --color-secondary-2: #00adef;
+  --color-secondary: #005eb1;
+  --color-second: linear-gradient(orange, black);
+  --color-dark-blue: #0a0f3e
+}
+
+html::-webkit-scrollbar {
+  width: .8rem
+}
+
+html::-webkit-scrollbar-thumb {
+  background: linear-gradient(orange, black);
+  border-radius: 1rem
+}
