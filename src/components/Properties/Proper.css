@@ -1,0 +1,48 @@
+.explore{
+ margin-top: 100px;
+ text-align: center;
+ justify-content: center;
+}
+.explore h2{
+ font-size: x-large;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.po{
+ background-color: rgb(247, 245, 245);
+}
+.explore p{
+ margin-top: 50px;
+ font-size: large;
+ font-weight: 400;
+}
+.pics {
+ display: grid;
+ grid-template-columns: repeat(3,1fr);
+ /* Adjust the minmax value as needed */
+ gap: 15px;
+ /* Space between grid items */
+ padding: 20px;
+ /* Padding around the grid */
+}
+
+.images {
+ overflow: hidden;
+ /* Prevent overflow */
+ border-radius: 8px;
+ /* Optional: rounded corners */
+ box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+ /* Optional: shadow effect */
+}
+
+.images img {
+ width: 100%;
+ /* Make images responsive */
+ height: auto;
+ /* Maintain aspect ratio */
+ display: block;
+ /* Remove bottom space */
+}
+.images img:hover{
+ transform: scale(1.1);
+ transition: 0.3s ease-in-out;
+}

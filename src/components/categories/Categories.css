@@ -20,7 +20,7 @@
  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
  gap: 20px;
  padding: 20px;
- 
+margin-left: 50px;
 }
 
 .icon {
@@ -44,4 +44,68 @@
   grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
   /* Further adjust for very small screens */
  }
+}
+.properties{
+ display: grid;
+ grid-template-columns: repeat(3,1fr);
+ margin-top: 100px;
+ margin-left: 250px;
+}
+.butt{
+ font-weight: 300;
+ font-style: oblique;
+ font-family: Arial, Helvetica, sans-serif;
+ font: bold;
+ padding-left: 20px;
+ padding-right: 20px;
+ padding-top: 10px;
+ padding-bottom: 15px;
+ color: rgb(207, 170, 95);
+ padding-bottom: 0px;
+ border: none;
+ margin-right: 60px;
+}
+.butt:hover{
+ color: white;
+ background-color: rgb(207, 170, 95);
+ transition: 0.3s ease-in;
+ transform: scale(1.1);
+}
+.place{
+ margin-top: 100px;
+}
+@media (max-width: 768px) {
+ .place {
+  padding: 12px;
+ }
+
+ h2 {
+  font-size: 1rem;
+ }
+
+ .butt {
+  font-size: 0.9rem;
+  padding: 8px 16px;
+ }
+ .properties{
+  margin-left: 100px;
+ }
+}
+@media (max-width:414px) {
+  .place {
+    padding: 12px;
+   }
+  
+   h2 {
+    font-size: 1rem;
+   }
+  
+   .butt {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+   }
+  
+   .properties {
+    margin-left: 100px;
+   }
 }

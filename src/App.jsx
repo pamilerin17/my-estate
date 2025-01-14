@@ -3,6 +3,7 @@ import './App.css'
 import Header from './components/Header/Header'
 import Home from './components/Home/Home'
 import Categories from './components/categories/Categories'
+import Proper from './components/Properties/Proper'
 import { BrowserRouter as Router } from 'react-router-dom';
 function App() {
  
@@ -13,6 +14,7 @@ function App() {
         <Header/>
         <Home/>
         <Categories/>
+        <Proper/>
       </Router>
     </div>
   )
