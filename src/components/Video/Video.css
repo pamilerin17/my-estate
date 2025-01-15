@@ -1,0 +1,40 @@
+.vid {
+  height: 100vh;
+   background: url("../../assets/evelyn-paris-XJnP4L958ds-unsplash.jpg");
+   width: 100%;
+   background-size: cover;
+   text-align: center;
+   justify-content: center;
+   display: flex;
+   height: 100vh;
+}
+
+.word{
+ color: white;
+ font-size: xx-large;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ margin-top: 450px;
+}
+.word h3{
+ font-weight: 700;
+ font: 2rem;
+}
+
+.wor{
+ color: white;
+ margin-top: 30px;
+}
+.bot{
+  margin-top: 50px;
+  border: none;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  cursor: pointer;
+  background-color: rgb(220, 150, 22);
+  color: black;
+}
+.bot:hover{
+  transition: scale(1.1);
+  transform: 0.3s ease-in;
+}
