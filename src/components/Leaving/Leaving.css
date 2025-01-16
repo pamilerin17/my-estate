@@ -1,0 +1,29 @@
+.back{
+ background-color: rgb(228, 156, 12);
+ margin-top: 100px;
+ padding: 20px 20px 20px 20px;
+ align-items: center;
+}
+.find{
+ margin-left: 300px;
+ color: white;
+ font-size: x-large;
+}
+.fin{
+  margin-left: 300px;
+  color: white;
+  font-size: large;
+}
+.buttooo{
+ margin-left: 700px;
+ margin-top: -70px;
+ background-color: black;
+ color: white;
+ cursor: pointer;
+ padding: 20px 20px 20px 20px;
+ border: none;
+ top: -100px;
+}
+.lea{
+ margin-bottom: 70px;
+}

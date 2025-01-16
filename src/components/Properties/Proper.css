@@ -17,30 +17,19 @@
 }
 .pics {
  display: grid;
- grid-template-columns: repeat(3,1fr);
- /* Adjust the minmax value as needed */
- gap: 15px;
- /* Space between grid items */
- padding: 20px;
- /* Padding around the grid */
+ grid-template-columns: repeat(2,1fr);
+ gap: 10px;
 }
 
 .images {
- overflow: hidden;
- /* Prevent overflow */
- border-radius: 8px;
- /* Optional: rounded corners */
+ border-radius: 10px;
  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
- /* Optional: shadow effect */
 }
 
 .images img {
- width: 100%;
- /* Make images responsive */
+ width: 90%;
  height: auto;
- /* Maintain aspect ratio */
- display: block;
- /* Remove bottom space */
+ /* display: block; */
 }
 .images img:hover{
  transform: scale(1.1);
