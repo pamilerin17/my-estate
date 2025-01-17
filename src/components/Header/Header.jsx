@@ -34,7 +34,7 @@ function Header() {
         <Link to='/'>Home</Link>
         <Link to='/About'>About</Link>
         <Link to='/Sermon'>Properties</Link>
-        <Link to='/Blog'>Blog</Link>
+        <Link to='/Blog'>Agents</Link>
         <button className='button'><a href="contact">Contact US</a></button>
        </div>
 

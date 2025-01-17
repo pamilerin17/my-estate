@@ -1,0 +1,28 @@
+.boxx{
+  background-color: rgb(225, 168, 61);
+   height: 120vh;
+   width: 50%;
+   gap: 2rem;
+   margin: 20px;
+   margin-top: 30px;
+}
+.meet{
+ margin-top: 30px;
+ margin-left: 130px;
+}
+.our{
+ margin-left: 130px;
+ margin-top: 40px;
+}
+.ima img{
+ height: 50vh;
+ width: 50;
+}
+.ima{
+ display: grid;
+ grid-template-columns: repeat(4,1fr);
+ gap: 2rem;
+}
+.ima h1{
+ font-size: 2rem;
+}

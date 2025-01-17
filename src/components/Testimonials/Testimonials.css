@@ -1,0 +1,46 @@
+.test{
+ margin-top: 100px;
+ color: rgb(230, 156, 21);
+ font-size: 30px;
+ font-weight: bold;
+}
+.tess{
+ align-items: center;
+ text-align: center;
+}
+.cli{
+ margin-top: 25px;
+}
+.bo{
+ /* background-color: rgb(228, 222, 222); */
+ height: 40vh;
+ width: 30%;
+ gap: 2rem;
+ margin: 20px;
+ text-align: center;
+ margin-top: 100px;
+}
+.bo img{
+ border-radius: 50%;
+ width: 15%;
+ margin-right: 100px;
+}
+ .lor{
+margin-top: -20px;
+}
+.bo h1{
+ margin-right: 70px;
+ font-size: 1rem;
+ text-align: center;
+}
+.bo p{
+ font-size: 1rem;
+ text-align: center;
+ margin-right: 30px;
+}
+.box{
+    display: flex;
+     align-items: center;
+     justify-content: center;
+     height: -100vh;
+}
