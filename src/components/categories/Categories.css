@@ -76,7 +76,7 @@ margin-left: 50px;
 }
 @media (max-width: 768px) {
  .place {
-  padding: 12px;
+  padding: 12px;   
  }
 
  h2 {
@@ -89,6 +89,9 @@ margin-left: 50px;
  }
  .properties{
   margin-left: 100px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 2rem;
  }
 }
 @media (max-width:414px) {
@@ -106,6 +109,63 @@ margin-left: 50px;
    }
   
    .properties {
-    margin-left: 100px;
+    margin-left: 5px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: .2rem;
    }
+}
+
+@media (max-width: 768px) {
+  .cate {
+    font-size: 1.3rem;
+  }
+
+  .cat {
+    font-size: 1.8rem;
+  }
+
+  .icon img {
+    max-width: 80px;
+  }
+
+  .tx h2 {
+    font-size: 0.9rem;
+  }
+
+  .butt {
+    font-size: 0.85rem;
+    padding: 6px 12px;
+  }
+  .properties{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .cate {
+    font-size: 1.2rem;
+  }
+     .place {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+     }
+
+  .cat {
+    font-size: 1.6rem;
+  }
+
+  .icon img {
+    max-width: 70px;
+  }
+
+  .tx h2 {
+    font-size: 0.85rem;
+  }
+
+  .butt {
+    font-size: 0.8rem;
+    padding: 5px 10px;
+  }
 }

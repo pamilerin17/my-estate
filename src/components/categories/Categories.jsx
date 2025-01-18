@@ -57,7 +57,7 @@ function Categories() {
           <button className='butt'>200 Properties</button>
         </div>
           <div className="place">
-          <h2>Londn </h2>
+          <h2>London </h2>
           <button className='butt'>200 Properties</button>
         </div>
         <div className="place">
