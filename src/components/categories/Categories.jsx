@@ -1,6 +1,6 @@
 // import React from 'react'
 import './Categories.css'
-import Land from '../../assets/Land.png'
+import Land from '../../assets/land.png'
 import Residential from '../../assets/Residential.png'
 import Commercial from '../../assets/Commercial.png'
 import Industrial from '../../assets/Industrial.png'
