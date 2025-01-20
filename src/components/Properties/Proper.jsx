@@ -1,9 +1,9 @@
 // import React from 'react'
 import './Proper.css'
-import Work1 from '../../assets/Work-1.jpg'
-import Work2 from '../../assets/Work-2.jpg'
-import Work3 from '../../assets/Work-3.jpg'
-import Work from '../../assets/Work-4.jpg'
+import Work1 from '../../assets/work-1.jpg'
+import Work2 from '../../assets/work-2.jpg'
+import Work3 from '../../assets/work-3.jpg'
+import Work from '../../assets/work-4.jpg'
 import bg from '../../assets/bg_1.jpg'
 import bg2 from '../../assets/bg_2.jpg'
 
