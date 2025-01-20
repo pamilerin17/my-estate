@@ -1,29 +1,86 @@
-.back{
- background-color: rgb(228, 156, 12);
- margin-top: 100px;
- padding: 20px 20px 20px 20px;
- align-items: center;
+/* General Styles */
+.back {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 15px 20px;
+  background-color: #f5f5f5;
+  height: 50vh;
+  /* Adjust to fit the viewport height */
 }
-.find{
- margin-left: 300px;
- color: white;
- font-size: x-large;
+
+.find {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: bold;
 }
-.fin{
-  margin-left: 300px;
-  color: white;
-  font-size: large;
+
+.lea {
+  color: orange;
+  /* Highlighted color */
+  font-weight: bold;
 }
-.buttooo{
- margin-left: 700px;
- margin-top: -70px;
- background-color: black;
- color: white;
- cursor: pointer;
- padding: 20px 20px 20px 20px;
- border: none;
- top: -100px;
+
+.fin {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 30px;
 }
-.lea{
- margin-bottom: 70px;
+
+.buttooo {
+  padding: 12px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: rgb(216, 147, 19);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.buttooo:hover {
+  background-color: rgb(222, 150, 16);
+  transform: scale(1.05);
+}
+
+/* Responsive Styles */
+
+/* For tablets and smaller devices */
+@media (max-width: 768px) {
+  .find {
+    font-size: 2rem;
+  }
+
+  .fin {
+    font-size: 1rem;
+  }
+
+  .buttooo {
+    font-size: 0.9rem;
+    padding: 10px 15px;
+  }
+}
+
+/* For mobile devices */
+@media (max-width: 480px) {
+  .find {
+    font-size: 1.8rem;
+  }
+
+  .fin {
+    font-size: 0.9rem;
+  }
+
+  .buttooo {
+    font-size: 0.8rem;
+    padding: 8px 12px;
+  }
+
+  .lea {
+    font-size: 1.8rem;
+  }
 }

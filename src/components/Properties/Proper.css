@@ -35,3 +35,67 @@
  transform: scale(1.1);
  transition: 0.3s ease-in-out;
 }
+
+@media (max-width: 768px) {
+ .po {
+  height: auto;
+ }
+
+ .explore {
+  width: 90%;
+  height: auto;
+ }
+
+ .images {
+  width: 45%;
+ }
+}
+@media (max-width:375px) {
+ .po {
+   height: auto;
+  }
+ 
+  .explore {
+   width: 90%;
+   height: auto;
+  }
+ 
+  .images {
+   width: 45%;
+   height: 50%;
+   margin-left: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+ .po {
+  height: auto;
+ }
+
+ .explore {
+  width: 95%;
+  height: auto;
+ }
+
+ .images {
+  width: 90%;
+  margin: 10px 0;
+ }
+}
+
+@media (max-width:414px) {
+ .po {
+  height: auto;
+ }
+
+ .explore {
+  width: 90%;
+  height: auto;
+ }
+
+ .images {
+  width: 30%;
+  height: 50%;
+  margin-right: 30px;
+ }
+}

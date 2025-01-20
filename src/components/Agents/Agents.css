@@ -1,28 +1,87 @@
-.boxx{
-  background-color: rgb(225, 168, 61);
-   height: 120vh;
-   width: 50%;
-   gap: 2rem;
-   margin: 20px;
-   margin-top: 30px;
+/* General Styles */
+.boxx {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
 }
-.meet{
- margin-top: 30px;
- margin-left: 130px;
+
+.meet {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 10px;
+  font-weight: bold;
 }
-.our{
- margin-left: 130px;
- margin-top: 40px;
+
+.our {
+  font-size: 1.5rem;
+  color: #555;
+  margin-bottom: 30px;
 }
-.ima img{
- height: 50vh;
- width: 50;
+
+.ima {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
 }
-.ima{
- display: grid;
- grid-template-columns: repeat(4,1fr);
- gap: 2rem;
+
+.ima img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+  transition: transform 0.3s ease;
 }
-.ima h1{
- font-size: 2rem;
+
+.ima img:hover {
+  transform: scale(1.1);
+}
+
+.ima h1 {
+  font-size: 1rem;
+  color: #333;
+  margin-top: 5px;
+}
+
+/* Responsive Styles */
+
+/* For tablets and smaller devices */
+@media (max-width: 768px) {
+  .meet {
+    font-size: 1.8rem;
+  }
+
+  .our {
+    font-size: 1.4rem;
+  }
+
+  .ima img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .ima h1 {
+    font-size: 0.9rem;
+  }
+}
+
+/* For mobile devices */
+@media (max-width: 480px) {
+  .meet {
+    font-size: 1.5rem;
+  }
+
+  .our {
+    font-size: 1.2rem;
+  }
+
+  .ima img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .ima h1 {
+    font-size: 0.8rem;
+  }
 }

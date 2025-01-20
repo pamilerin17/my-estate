@@ -147,7 +147,7 @@ margin-left: 50px;
   .cate {
     font-size: 1.2rem;
   }
-     .place {
+  .place {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
      }
@@ -167,5 +167,20 @@ margin-left: 50px;
   .butt {
     font-size: 0.8rem;
     padding: 5px 10px;
+  }
+}
+@media (min-width:375px) {
+  .place {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 5px;
+}
+}
+
+@media (min-width:320px) {
+  .place {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 5px;
   }
 }

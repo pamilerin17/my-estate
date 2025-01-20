@@ -1,41 +1,122 @@
+/* General Styles */
 .vid {
   height: 100vh;
-   background: url("../../assets/evelyn-paris-XJnP4L958ds-unsplash.jpg");
-   width: 100%;
-   background-size: cover;
-   text-align: center;
-   justify-content: center;
-   display: flex;
-   height: 100vh;
-   margin-top: 100px;
+  background: url("../../assets/evelyn-paris-XJnP4L958ds-unsplash.jpg") no-repeat center center/cover;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
 }
 
-.word{
- color: white;
- font-size: xx-large;
- font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
- margin-top: 300px;
-}
-.word h3{
- font-weight: 700;
- font: 2rem;
+.word {
+  color: white;
+  font-size: 2.5rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-bottom: 20px;
 }
 
-.wor{
- color: white;
- margin-top: 30px;
+.wor {
+  color: white;
+  font-size: 1rem;
+  line-height: 1.6;
+  max-width: 80%;
+  margin: 20px auto 0;
 }
-.bot{
-  margin-top: 50px;
+
+.bot {
+  margin-top: 30px;
   border: none;
-  height: 50px;
-  width: 50px;
-  border-radius: 100%;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
   cursor: pointer;
   background-color: rgb(220, 150, 22);
   color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  margin-left: 220px;
 }
-.bot:hover{
-  transition: scale(1.1);
-  transform: 0.3s ease-in;
+
+.bot:hover {
+  transform: scale(1.1);
+  background-color: rgb(255, 180, 50);
+}
+
+/* Responsive Styles */
+
+/* For tablets (max-width: 768px) */
+@media (max-width: 768px) {
+  .vid {
+    margin-top: 50px;
+    height: 80vh;
+  }
+
+  .word {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+
+  .wor {
+    font-size: 0.9rem;
+    max-width: 90%;
+  }
+
+  .bot {
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
+  }
+}
+
+/* For mobile devices (max-width: 480px) */
+@media (max-width: 480px) {
+  .vid {
+    height: 70vh;
+    margin-top: 20px;
+  }
+
+  .word {
+    font-size: 1.8rem;
+  }
+
+  .wor {
+    font-size: 0.85rem;
+  }
+
+  .bot {
+    height: 45px;
+    width: 45px;
+  }
+}
+
+/* For very small devices (max-width: 360px) */
+@media (max-width: 360px) {
+  .vid {
+    background-size: contain;
+    height: 60vh;
+  }
+
+  .word {
+    font-size: 1.5rem;
+  }
+
+  .wor {
+    font-size: 0.8rem;
+    max-width: 100%;
+  }
+
+  .bot {
+    height: 40px;
+    width: 40px;
+  }
+}
+@media (max-width:320px) {
+  .bot{
+    margin-right: 200px;
+  }
 }

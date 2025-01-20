@@ -1,46 +1,113 @@
-.test{
- margin-top: 100px;
- color: rgb(230, 156, 21);
- font-size: 30px;
- font-weight: bold;
+/* General Styles */
+.tess {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
 }
-.tess{
- align-items: center;
- text-align: center;
+
+.test {
+    font-size: 2.5rem;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
-.cli{
- margin-top: 25px;
+
+.cli {
+    font-size: 1.8rem;
+    color: rgb(241, 178, 59);
+    margin-bottom: 30px;
 }
-.bo{
- /* background-color: rgb(228, 222, 222); */
- height: 40vh;
- width: 30%;
- gap: 2rem;
- margin: 20px;
- text-align: center;
- margin-top: 100px;
-}
-.bo img{
- border-radius: 50%;
- width: 15%;
- margin-right: 100px;
-}
- .lor{
-margin-top: -20px;
-}
-.bo h1{
- margin-right: 70px;
- font-size: 1rem;
- text-align: center;
-}
-.bo p{
- font-size: 1rem;
- text-align: center;
- margin-right: 30px;
-}
-.box{
+
+.box {
     display: flex;
-     align-items: center;
-     justify-content: center;
-     height: -100vh;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.bo {
+    flex: 1 1 calc(33.33% - 20px);
+    max-width: calc(33.33% - 20px);
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.lor {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.bo img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.bo h1 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.bo p:last-child {
+    font-size: 1rem;
+    color: rgb(240, 158, 5);
+}
+
+/* Responsive Styles */
+
+/* For tablets and smaller devices */
+@media (max-width: 768px) {
+    .test {
+        font-size: 2rem;
+    }
+
+    .cli {
+        font-size: 1.5rem;
+    }
+
+    .bo {
+        flex: 1 1 calc(50% - 20px);
+        max-width: calc(50% - 20px);
+    }
+
+    .lor {
+        font-size: 0.95rem;
+    }
+}
+
+/* For mobile devices */
+@media (max-width: 480px) {
+    .test {
+        font-size: 1.8rem;
+    }
+
+    .cli {
+        font-size: 1.4rem;
+    }
+
+    .bo {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+
+    .lor {
+        font-size: 0.9rem;
+    }
+
+    .bo img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .bo h1 {
+        font-size: 1.1rem;
+    }
 }

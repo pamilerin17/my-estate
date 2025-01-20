@@ -10,7 +10,7 @@
  top: 0;
  left: 0;
  right: 0;
- z-index: 100;
+ z-index: 0;
 }
 
 .first {
@@ -136,7 +136,7 @@
  .h-menu {
   z-index: 99;
   color: #131110;
-  position: absolute;
+  position: fixed;
   top: 10rem;
   right: 4rem;
   background-color: white;
