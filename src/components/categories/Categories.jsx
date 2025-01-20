@@ -1,9 +1,9 @@
 // import React from 'react'
 import './Categories.css'
 import Land from '../../assets/land.png'
-import Residential from '../../assets/Residential.png'
-import Commercial from '../../assets/Commercial.png'
-import Industrial from '../../assets/Industrial.png'
+import Residential from '../../assets/residential.png'
+import Commercial from '../../assets/commercial.png'
+import Industrial from '../../assets/industrial.png'
 function Categories() {
   return (
     <div className='po'>
