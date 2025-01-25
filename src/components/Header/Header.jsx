@@ -15,7 +15,7 @@ function Header() {
  }
   return (
     <div>
-            <div className="first">
+          <div className="first">
         <div className="reach">
         <p className="call"><FaPhone/>Call us: <br />  +234 712 3456 213</p>
         <p className="location"><FaLocationArrow/>
